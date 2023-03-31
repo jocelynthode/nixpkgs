@@ -35577,6 +35577,8 @@ with pkgs;
 
   eternity = callPackage ../games/eternity-engine { };
 
+  olympus = callPackage ../games/olympus { };
+
   extremetuxracer = callPackage ../games/extremetuxracer {
     libpng = libpng12;
   };
